@@ -1,4 +1,5 @@
 import React from 'react';
+import MainHeader from '../mainHeader/mainHeader';
 import Container1 from "./container1/container1";
 const styles = {
     header: {
@@ -34,6 +35,7 @@ const styles = {
 function App() {
     return (
         <>
+            <MainHeader/>
             <Container1 />
         <div>
 
