@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Container1 from "./container1/container1";
 const styles = {
     header: {
         textAlign: 'center',
@@ -33,7 +33,10 @@ const styles = {
 
 function App() {
     return (
+        <>
+            <Container1 />
         <div>
+
             <header style={styles.header}>
                 <h1 style={styles.h1}>Supun Thilakshana</h1>
                 <p style={styles.p}>Electrical and Information Engineer</p>
@@ -57,6 +60,7 @@ function App() {
             </section>
             {/* Add more sections as needed */}
         </div>
+        </>
     );
 }
 
