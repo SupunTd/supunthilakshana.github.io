@@ -1,80 +1,83 @@
 import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import firebase from 'firebase/app';
-import 'firebase/auth';
-
-// ... Firebase configuration and initialization (same as previous example) ...
+import { Box, Typography, TextField, Button } from '@mui/material';
+import { auth, createUserWithEmailAndPassword } from '../../firebase';
 
 const Signup = () => {
-    const history = useHistory();
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState(null);
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        password: '',
+    });
 
-    const handleSignUp = async (e) => {
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({ ...prevData, [name]: value }));
+    };
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await firebase.auth().createUserWithEmailAndPassword(email, password);
-            const user = firebase.auth().currentUser;
-            if (user) {
-                await user.updateProfile({
-                    displayName: `${firstName} ${lastName}`,
-                });
-            }
-            // User signed up successfully
-            setError(null);
-            // Redirect to home page after successful signup
-            history.push('/');
-        } catch (err) {
-            setError(err.message);
+            const { email, password } = formData;
+            await createUserWithEmailAndPassword(auth, email, password);
+            // You can do something else here like redirect to another page after successful signup.
+            console.log('User signed up successfully!');
+        } catch (error) {
+            console.error('Error signing up:', error.message);
         }
     };
 
     return (
-        <div>
-            <h2>Sign Up</h2>
-            {error && <p>{error}</p>}
-            <form onSubmit={handleSignUp}>
-                <div>
-                    <label>First Name:</label>
-                    <input
-                        type="text"
-                        value={firstName}
-                        onChange={(e) => setFirstName(e.target.value)}
-                    />
-                </div>
-                <div>
-                    <label>Last Name:</label>
-                    <input
-                        type="text"
-                        value={lastName}
-                        onChange={(e) => setLastName(e.target.value)}
-                    />
-                </div>
-                <div>
-                    <label>Email:</label>
-                    <input
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                </div>
-                <div>
-                    <label>Password:</label>
-                    <input
-                        type="password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
-                </div>
-                <button type="submit">Sign Up</button>
-                <p>
-                    Already have an account? <Link to="/">Sign in here</Link>
-                </p>
+        <Box p={2} textAlign="center">
+            <Typography variant="h4">Sign Up</Typography>
+            <form onSubmit={handleSubmit}>
+                <TextField
+                    label="First Name"
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                    fullWidth
+                    margin="normal"
+                    variant="outlined"
+                    required
+                />
+                <TextField
+                    label="Last Name"
+                    name="lastName"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                    fullWidth
+                    margin="normal"
+                    variant="outlined"
+                    required
+                />
+                <TextField
+                    label="Email"
+                    name="email"
+                    type="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    fullWidth
+                    margin="normal"
+                    variant="outlined"
+                    required
+                />
+                <TextField
+                    label="Password"
+                    name="password"
+                    type="password"
+                    value={formData.password}
+                    onChange={handleChange}
+                    fullWidth
+                    margin="normal"
+                    variant="outlined"
+                    required
+                />
+                <Button type="submit" variant="contained" color="primary" fullWidth>
+                    Sign Up
+                </Button>
             </form>
-        </div>
+        </Box>
     );
 };
 

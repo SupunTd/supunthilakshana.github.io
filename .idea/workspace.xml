@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eab5d01-2adf-44f1-9ce8-5606306a2b87" name="Changes" comment="new update">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/supunthilakshana.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignUp/signup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUp/signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/container2/container2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/container2/container2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/mainHeader/mainHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainHeader/mainHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,8 @@
       <updated>1690559126277</updated>
       <workItem from="1690559127732" duration="2757000" />
       <workItem from="1690562179926" duration="207000" />
-      <workItem from="1690562583430" duration="1475000" />
+      <workItem from="1690562583430" duration="1679000" />
+      <workItem from="1690571401603" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="remove">
       <option name="closed" value="true" />
@@ -96,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690559347275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new update">
+      <option name="closed" value="true" />
+      <created>1690564222650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690564222650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
