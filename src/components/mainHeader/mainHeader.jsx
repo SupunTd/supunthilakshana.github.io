@@ -21,7 +21,7 @@ const HeaderBar = () => {
                     About
                 </Typography>
                 <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
-                    Contact
+                    SignUp
                 </Typography>
             </Toolbar>
         </AppBar>
