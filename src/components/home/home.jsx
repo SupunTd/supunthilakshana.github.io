@@ -1,6 +1,7 @@
 import React from 'react';
 import MainHeader from '../mainHeader/mainHeader';
 import Container1 from "./container1/container1";
+import Container2 from "./container2/container2";
 const styles = {
     header: {
         textAlign: 'center',
@@ -37,6 +38,7 @@ function App() {
         <>
             <MainHeader/>
             <Container1 />
+            <Container2 />
         <div>
 
             <header style={styles.header}>
