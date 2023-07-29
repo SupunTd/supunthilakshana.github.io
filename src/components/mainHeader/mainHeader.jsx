@@ -1,9 +1,31 @@
-import React from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import React, { useState } from 'react';
+import { AppBar, Toolbar, Typography, CircularProgress } from '@mui/material';
 import { FcMindMap } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
 
 const HeaderBar = () => {
+    const [homeLoading, setHomeLoading] = useState(false);
+    const [signupLoading, setSignupLoading] = useState(false);
+
+    const handleHomeNavigation = () => {
+        setHomeLoading(true);
+        setTimeout(() => {
+            setHomeLoading(false);
+        }, 1000);
+    };
+
+    const handleSignupNavigation = () => {
+        setSignupLoading(true);
+        setTimeout(() => {
+            setSignupLoading(false);
+        }, 1000);
+    };
+
+    const linkStyle = {
+        textDecoration: 'none', // Remove underline
+        color: 'inherit', // Inherit text color from parent
+    };
+
     return (
         <AppBar
             position="static"
@@ -19,18 +41,24 @@ const HeaderBar = () => {
             <Toolbar>
                 <FcMindMap size={30} style={{ marginRight: '10px', marginLeft: '10px' }} />
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
-                    Hi 😋
+                    <Link to="/" onClick={handleHomeNavigation} style={linkStyle}>Hi 😋</Link>
                 </Typography>
 
                 {/* Navigation links */}
                 <Typography variant="subtitle1" sx={{ mr: 6, fontWeight: 'bold' }}>
-                    Home
+                    <Link to="/" onClick={handleHomeNavigation} style={linkStyle}>
+                        Home
+                    </Link>
+                    {homeLoading && <CircularProgress color="secondary" size={20} />}
                 </Typography>
                 <Typography variant="subtitle1" sx={{ mr: 6, fontWeight: 'bold' }}>
                     About
                 </Typography>
                 <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
-                    <Link to="/Signup">SignUp</Link>
+                    <Link to="/Signup" onClick={handleSignupNavigation} style={linkStyle}>
+                        SignUp
+                    </Link>
+                    {signupLoading && <CircularProgress color="secondary" size={20} />}
                 </Typography>
             </Toolbar>
         </AppBar>
