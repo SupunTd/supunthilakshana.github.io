@@ -55,7 +55,7 @@ const HeaderBar = () => {
                     About
                 </Typography>
                 <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
-                    <Link to="/Signup" onClick={handleSignupNavigation} style={linkStyle}>
+                    <Link to="/SignUp" onClick={handleSignupNavigation} style={linkStyle}>
                         SignUp
                     </Link>
                     {signupLoading && <CircularProgress color="secondary" size={20} />}

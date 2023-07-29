@@ -33,7 +33,7 @@ const Signup = () => {
         <>
             <MainHeader />
             <Box p={2} textAlign="center">
-                <Typography variant="h4">Sign Up</Typography>
+                <Typography variant="h4">Sign In</Typography>
                 <Box display="flex" justifyContent="center" alignItems="center">
                     {/* Left side with image */}
                     <Box width="50%" p={2}>
@@ -75,8 +75,8 @@ const Signup = () => {
                         <Box mt={2}>
                             <Typography variant="body2">
                                 Already have an account?{' '}
-                                <Link href="/login" color="primary">
-                                    Log In
+                                <Link href="/SignUp" color="primary">
+                                    Signup
                                 </Link>
                             </Typography>
                         </Box>
