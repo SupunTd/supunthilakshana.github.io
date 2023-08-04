@@ -2,6 +2,8 @@ import React from 'react';
 import MainHeader from '../mainHeader/mainHeader';
 import Container1 from "./container1/container1";
 import Container2 from "./container2/container2";
+import Container3 from "./container3/container3";
+import Footer from "../Footer/footer";
 const styles = {
     header: {
         textAlign: 'center',
@@ -39,32 +41,19 @@ function App() {
             <MainHeader/>
             <Container1 />
             <Container2 />
+
+
         <div>
 
             <header style={styles.header}>
                 <h1 style={styles.h1}>Supun Thilakshana</h1>
                 <p style={styles.p}>Electrical and Information Engineer</p>
             </header>
-            <section style={styles.section}>
-                <h2 style={styles.h2}>About Me</h2>
-                <p style={styles.pSection}>
-                    I am an enthusiastic and motivated individual with a passion for
-                    web development. I love creating innovative and user-friendly
-                    websites.
-                </p>
-            </section>
-            <section style={styles.section}>
-                <h2 style={styles.h2}>Experience</h2>
-                <p style={styles.pSection}>
-                    Web Developer | XYZ Company | 2019 - Present
-                </p>
-                <p style={styles.pSection}>
-                    Frontend Developer | ABC Agency | 2017 - 2019
-                </p>
-            </section>
-            {/* Add more sections as needed */}
+
         </div>
+            <Footer/>
         </>
+
     );
 }
 

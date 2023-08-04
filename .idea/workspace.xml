@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eab5d01-2adf-44f1-9ce8-5606306a2b87" name="Changes" comment="new update">
-      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+    <list default="true" id="1eab5d01-2adf-44f1-9ce8-5606306a2b87" name="Changes" comment="chnage route">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Resume/Resume.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/container3/container3.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignUp/signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/signup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/container2/container2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/container2/container2.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUp/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/Signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/mainHeader/mainHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainHeader/mainHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,13 @@
       <workItem from="1690559127732" duration="2757000" />
       <workItem from="1690562179926" duration="207000" />
       <workItem from="1690562583430" duration="1679000" />
-      <workItem from="1690571401603" duration="2221000" />
+      <workItem from="1690571401603" duration="2318000" />
+      <workItem from="1690608470695" duration="1814000" />
+      <workItem from="1690638256600" duration="610000" />
+      <workItem from="1690639608863" duration="3772000" />
+      <workItem from="1690830674331" duration="215000" />
+      <workItem from="1691152029481" duration="1832000" />
+      <workItem from="1691157141478" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="remove">
       <option name="closed" value="true" />
@@ -102,7 +110,31 @@
       <option name="project" value="LOCAL" />
       <updated>1690564222650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding signup page base on firebase">
+      <option name="closed" value="true" />
+      <created>1690573690013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690573690013</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding signin.jsx">
+      <option name="closed" value="true" />
+      <created>1690609890511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690609890512</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chnage route">
+      <option name="closed" value="true" />
+      <created>1690638801648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690638801648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +143,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove" />
     <MESSAGE value="new update" />
-    <option name="LAST_COMMIT_MESSAGE" value="new update" />
+    <MESSAGE value="adding signup page base on firebase" />
+    <MESSAGE value="adding signin.jsx" />
+    <MESSAGE value="chnage route" />
+    <option name="LAST_COMMIT_MESSAGE" value="chnage route" />
   </component>
 </project>

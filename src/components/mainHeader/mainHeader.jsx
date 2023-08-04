@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography, CircularProgress } from '@mui/material';
 import { FcMindMap } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
 
-const HeaderBar = () => {
+const MainHeaderBar = () => {
     const [homeLoading, setHomeLoading] = useState(false);
     const [signupLoading, setSignupLoading] = useState(false);
 
@@ -52,17 +52,28 @@ const HeaderBar = () => {
                     {homeLoading && <CircularProgress color="secondary" size={20} />}
                 </Typography>
                 <Typography variant="subtitle1" sx={{ mr: 6, fontWeight: 'bold' }}>
+                    <Link to="/Resume" style={linkStyle} >Resume</Link>
+                </Typography>
+                <Typography variant="subtitle1" sx={{ mr: 6, fontWeight: 'bold' }}>
+                    Project
+                </Typography>
+                <Typography variant="subtitle1" sx={{ mr: 6, fontWeight: 'bold' }}>
+                    Hire Me
+                </Typography>
+                <Typography variant="subtitle1" sx={{ mr: 6, fontWeight: 'bold' }}>
                     About
                 </Typography>
+                {/*
                 <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
                     <Link to="/SignUp" onClick={handleSignupNavigation} style={linkStyle}>
                         SignUp
                     </Link>
                     {signupLoading && <CircularProgress color="secondary" size={20} />}
                 </Typography>
+                */}
             </Toolbar>
         </AppBar>
     );
 };
 
-export default HeaderBar;
+export default MainHeaderBar;

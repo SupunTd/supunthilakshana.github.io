@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
-import { Box, Typography, TextField, Button, Link } from '@mui/material';
-import { auth, createUserWithEmailAndPassword } from '../../firebase';
-import SignupPageImage from "../Images/SignInPage.jpg";
-import MainHeader from "../mainHeader/mainHeader";
+// SignIn.js
 
-const Signup = () => {
+import React, { useState } from 'react';
+import { Box, Typography, TextField, Button, Link, LinearProgress } from '@mui/material';
+import { auth, createUserWithEmailAndPassword } from '../../firebase';
+import SignInPageImage from '../Images/SignInPage.jpg'; // Replace with the actual image path
+import MainHeader from '../mainHeader/mainHeader';
+
+const SignIn = () => {
     const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
         email: '',
         password: '',
     });
+
+    const [loading, setLoading] = useState(false);
+    const [success, setSuccess] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -19,13 +22,17 @@ const Signup = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true);
+
         try {
             const { email, password } = formData;
-            await createUserWithEmailAndPassword(auth, email, password);
-            // You can do something else here like redirect to another page after successful signup.
-            console.log('User signed up successfully!');
+            await createUserWithEmailAndPassword (auth, email, password);
+            setSuccess(true);
+            console.log('User signed in successfully!');
         } catch (error) {
-            console.error('Error signing up:', error.message);
+            console.error('Error signing in:', error.message);
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -35,13 +42,9 @@ const Signup = () => {
             <Box p={2} textAlign="center">
                 <Typography variant="h4">Sign In</Typography>
                 <Box display="flex" justifyContent="center" alignItems="center">
-                    {/* Left side with image */}
                     <Box width="50%" p={2}>
-                        {/* Add your image here */}
-                        <img src={SignupPageImage} alt="Your Image" />
+                        <img src={SignInPageImage} alt="Your Image" />
                     </Box>
-
-                    {/* Right side with form */}
                     <Box width="50%" p={2}>
                         <form onSubmit={handleSubmit}>
                             <TextField
@@ -67,16 +70,16 @@ const Signup = () => {
                                 required
                             />
                             <Button type="submit" variant="contained" color="primary" fullWidth>
-                                Sign Up
+                                Sign In
                             </Button>
                         </form>
-
-                        {/* Signup link */}
+                        {loading && <LinearProgress />}
+                        {success && <Typography variant="body2">Signin successful! Redirecting...</Typography>}
                         <Box mt={2}>
                             <Typography variant="body2">
-                                Already have an account?{' '}
-                                <Link href="/SignUp" color="primary">
-                                    Signup
+                                Don't have an account?{' '}
+                                <Link href={"/SignUp"} color="primary"> {/* Link to Sign Up page */}
+                                    Sign Up
                                 </Link>
                             </Typography>
                         </Box>
@@ -87,4 +90,4 @@ const Signup = () => {
     );
 };
 
-export default Signup;
+export default SignIn;
