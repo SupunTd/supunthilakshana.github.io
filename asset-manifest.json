@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/supunthilakshana.github.io/static/css/main.d781998d.css",
-    "main.js": "/supunthilakshana.github.io/static/js/main.1b033c35.js",
+    "main.js": "/supunthilakshana.github.io/static/js/main.468e5763.js",
     "static/js/787.377cba67.chunk.js": "/supunthilakshana.github.io/static/js/787.377cba67.chunk.js",
     "static/media/HomeMainImage.jpg": "/supunthilakshana.github.io/static/media/HomeMainImage.be43b5f9c6a1579e18c3.jpg",
     "static/media/SignupPage.jpg": "/supunthilakshana.github.io/static/media/SignupPage.75f72f44e792a785dafd.jpg",
     "static/media/SignInPage.jpg": "/supunthilakshana.github.io/static/media/SignInPage.7ea0b2dd1061f076e1db.jpg",
+    "static/media/Achive.jpeg": "/supunthilakshana.github.io/static/media/Achive.917e8dde17d4095c178e.jpeg",
     "index.html": "/supunthilakshana.github.io/index.html",
     "main.d781998d.css.map": "/supunthilakshana.github.io/static/css/main.d781998d.css.map",
-    "main.1b033c35.js.map": "/supunthilakshana.github.io/static/js/main.1b033c35.js.map",
+    "main.468e5763.js.map": "/supunthilakshana.github.io/static/js/main.468e5763.js.map",
     "787.377cba67.chunk.js.map": "/supunthilakshana.github.io/static/js/787.377cba67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d781998d.css",
-    "static/js/main.1b033c35.js"
+    "static/js/main.468e5763.js"
   ]
 }
