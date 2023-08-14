@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/supunthilakshana.github.io/static/css/main.d781998d.css",
-    "main.js": "/supunthilakshana.github.io/static/js/main.468e5763.js",
-    "static/js/787.377cba67.chunk.js": "/supunthilakshana.github.io/static/js/787.377cba67.chunk.js",
-    "static/media/HomeMainImage.jpg": "/supunthilakshana.github.io/static/media/HomeMainImage.be43b5f9c6a1579e18c3.jpg",
-    "static/media/SignupPage.jpg": "/supunthilakshana.github.io/static/media/SignupPage.75f72f44e792a785dafd.jpg",
-    "static/media/SignInPage.jpg": "/supunthilakshana.github.io/static/media/SignInPage.7ea0b2dd1061f076e1db.jpg",
-    "static/media/Achive.jpeg": "/supunthilakshana.github.io/static/media/Achive.917e8dde17d4095c178e.jpeg",
+    "main.css": "/supunthilakshana.github.io/static/css/main.8b859bf7.css",
+    "main.js": "/supunthilakshana.github.io/static/js/main.77474d91.js",
+    "static/media/ProjectImg1.png": "/supunthilakshana.github.io/static/media/ProjectImg1.cb9383505e0c3f4462b3.png",
+    "static/media/resume.pdf": "/supunthilakshana.github.io/static/media/resume.d53a6c8017099d015c5e.pdf",
+    "static/media/boy.png": "/supunthilakshana.github.io/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/supunthilakshana.github.io/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/thumbup.png": "/supunthilakshana.github.io/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/supunthilakshana.github.io/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/supunthilakshana.github.io/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/supunthilakshana.github.io/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/supunthilakshana.github.io/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/supunthilakshana.github.io/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/supunthilakshana.github.io/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/supunthilakshana.github.io/index.html",
-    "main.d781998d.css.map": "/supunthilakshana.github.io/static/css/main.d781998d.css.map",
-    "main.468e5763.js.map": "/supunthilakshana.github.io/static/js/main.468e5763.js.map",
-    "787.377cba67.chunk.js.map": "/supunthilakshana.github.io/static/js/787.377cba67.chunk.js.map"
+    "main.8b859bf7.css.map": "/supunthilakshana.github.io/static/css/main.8b859bf7.css.map",
+    "main.77474d91.js.map": "/supunthilakshana.github.io/static/js/main.77474d91.js.map"
   },
   "entrypoints": [
-    "static/css/main.d781998d.css",
-    "static/js/main.468e5763.js"
+    "static/css/main.8b859bf7.css",
+    "static/js/main.77474d91.js"
   ]
 }
