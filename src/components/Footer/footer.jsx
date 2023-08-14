@@ -1,24 +1,41 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles((theme) => ({
-    footer: {
-        backgroundColor: '#f5f5f5',
-        padding: theme.spacing(2),
-        textAlign: 'center',
-        width: '90%', // Change width to '100%'
-        left: 0,
-        height: '2rem', // Optionally, specify the height (you can adjust this as needed)
-    },
-}));
+import React, { useState } from "react";
+import "./Footer.css";
+import Wave from "../../img/wave.png";
+import Insta from "@iconscout/react-unicons/icons/uil-instagram";
+import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
+import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
+import Twitter from "@iconscout/react-unicons/icons/uil-twitter";
+import ArrowUp from "@iconscout/react-unicons/icons/uil-arrow-up"; // Round arrow icon
 
 const Footer = () => {
-    const classes = useStyles();
+    const handleGoToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
 
     return (
-        <footer className={classes.footer}>
-            <p>All rights reserved © {new Date().getFullYear()}</p>
-        </footer>
+        <div className="footer">
+            <div className="blue-bar"></div> {/* Blue bar */}
+            <div className="f-content">
+                <div className="f-icons">
+                    <Insta color="white" size={"2rem"}  />
+                    <Facebook color="white" size={"2rem"}  />
+                    <Gitub color="white" size={"2rem"}  />
+                    <LinkedIn color="white" size={"2rem"}  />
+                    {/* Correct usage of Twitter as a link */}
+                    <a href="https://twitter.com/SupunTd" target="_blank" rel="noopener noreferrer">
+                        <Twitter color="white" size={"2rem"} />
+                    </a>
+                </div>
+                <button className="go-to-top-button" onClick={handleGoToTop}>
+                    <ArrowUp  size={"1rem"} />
+                </button>
+                <p className="copyright">All rights reserved &copy; {new Date().getFullYear()} Supun Thilakshana</p>
+            </div>
+        </div>
     );
 };
 

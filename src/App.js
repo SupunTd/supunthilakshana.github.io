@@ -1,21 +1,37 @@
-import React from 'react';
-import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
-import Main from './components/home/home';
-import Resume from './components/Resume/Resume';
-import Signup from './components/SignUp/Signup'; // Corrected path
-import SignIn from './components/SignIn/SignIn';
+import Navbar from "./components/Navbar/Navbar";
+import Intro from "./components/Intro/Intro";
+import Services from "./components/Services/Services";
+import "./App.css";
+import Experience from "./components/Experience/Experience";
+import Works from "./components/Works/Works";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Testimonial from "./components/Testimonials/Testimonial";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import { useContext } from "react";
+import { themeContext } from "./Context";
 function App() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="*" element={<Navigate to="/" />} />
-                <Route path="/" element={<Main />} />
-                <Route path="/Resume" element={<Resume />} />
-                <Route path="/SignUp" element={<Signup />} /> {/* Corrected path */}
-                <Route path="/SignIn" element={<SignIn />} /> {/* Corrected path */}
-            </Routes>
-        </Router>
-    );
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+  return (
+    <div
+      className="App"
+      style={{
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}
+    >
+      <Navbar />
+      <Intro />
+      <Services />
+      <Experience />
+      <Works />
+      <Portfolio />{/*
+      <Testimonial />  */}
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
