@@ -5,35 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eab5d01-2adf-44f1-9ce8-5606306a2b87" name="Changes" comment="Add Resume Page">
-      <change afterPath="$PROJECT_DIR$/src/components/Portfolio/Images/ProjectImg1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/HomeMainImage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/SignInPage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/SignupPage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Resume/Resume.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignUp/Signup.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/container1/container1.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/container2/container2.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/container3/container3.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainHeader/mainHeader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/Intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/Intro.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +97,8 @@
       <workItem from="1691859484989" duration="1398000" />
       <workItem from="1692033294339" duration="679000" />
       <workItem from="1692039187094" duration="3477000" />
+      <workItem from="1723228684463" duration="31000" />
+      <workItem from="1723228718425" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="remove">
       <option name="closed" value="true" />
