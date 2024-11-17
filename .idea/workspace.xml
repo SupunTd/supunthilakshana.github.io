@@ -4,12 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eab5d01-2adf-44f1-9ce8-5606306a2b87" name="Changes" comment="Add Resume Page">
+    <list default="true" id="1eab5d01-2adf-44f1-9ce8-5606306a2b87" name="Changes" comment="First Page name change">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/back-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/homepage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Experience.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/Intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/Intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingDiv/FloatingDiv.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingDiv/FloatingDiv.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/Intro.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Images/ProjectImg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services/resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/Testimonial.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/Testimonial.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Toggle/Toggle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Toggle/Toggle.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Works.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Works.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Gumela Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Shopify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Upwork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Vector1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Vector2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/boy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/crown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ecommerce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/fiverr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/glasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/glassesimoji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/heartemoji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/humble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/musicapp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/purpleblur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sidebar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/thumbup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/wave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +105,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpDebugGeneral" listening_started="true">
     <xdebug_debug_ports port="9000" />
     <xdebug_debug_ports port="9003" />
@@ -38,18 +121,23 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2TCtvhcfc8SbpVRhWlatlOyi6Zy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WCT/Desktop/Academic/5/EE5203 Softwear Project/Project Github/client&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Portfolio/supunthilakshana.github.io&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -98,7 +186,14 @@
       <workItem from="1692033294339" duration="679000" />
       <workItem from="1692039187094" duration="3477000" />
       <workItem from="1723228684463" duration="31000" />
-      <workItem from="1723228718425" duration="1370000" />
+      <workItem from="1723228718425" duration="3622000" />
+      <workItem from="1724134924759" duration="1204000" />
+      <workItem from="1730483385978" duration="46000" />
+      <workItem from="1730491203881" duration="414000" />
+      <workItem from="1731071991599" duration="11000" />
+      <workItem from="1731087871826" duration="601000" />
+      <workItem from="1731856997281" duration="30000" />
+      <workItem from="1731857203821" duration="2252000" />
     </task>
     <task id="LOCAL-00001" summary="remove">
       <option name="closed" value="true" />
@@ -156,19 +251,29 @@
       <option name="project" value="LOCAL" />
       <updated>1691158338021</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First Page name change">
+      <option name="closed" value="true" />
+      <created>1723230336957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723230336957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="remove" />
     <MESSAGE value="new update" />
     <MESSAGE value="adding signup page base on firebase" />
     <MESSAGE value="adding signin.jsx" />
     <MESSAGE value="chnage route" />
     <MESSAGE value="Add Resume Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Resume Page" />
+    <MESSAGE value="First Page name change" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Page name change" />
   </component>
 </project>
