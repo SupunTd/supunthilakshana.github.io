@@ -10,20 +10,24 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
 function App() {
-	return (
-		<Router>
-			<Navbar />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/experience" element={<Experience />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<NotFound />} />
-			</Routes>
-			<Footer />
-		</Router>
-	);
+  return (
+    <Router>
+      <div className="app-container">
+        <Navbar />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;

@@ -1,16 +1,31 @@
 import React from 'react';
-//import './Footer.css'; // Optional styling
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            <p>© 2024 Your Name. All Rights Reserved.</p>
-            <ul className="social-links">
-                <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
-                <li><a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            </ul>
-        </footer>
-    );
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-copyright">
+          &copy; {currentYear} Supun Thilakshana. All Rights Reserved.
+        </div>
+        <div className="footer-socials">
+          <a href="https://github.com/supuntd" target="_blank" rel="noreferrer" title="GitHub">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" title="LinkedIn">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a href="mailto:supunthilakshana@example.com" title="Email">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
