@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/supunthilakshana.github.io/static/css/main.93cfff6f.css",
-    "main.js": "/supunthilakshana.github.io/static/js/main.b455ae14.js",
+    "main.js": "/supunthilakshana.github.io/static/js/main.750c39e4.js",
     "static/js/787.ddd95f79.chunk.js": "/supunthilakshana.github.io/static/js/787.ddd95f79.chunk.js",
     "static/media/YRY_8761.jpg": "/supunthilakshana.github.io/static/media/YRY_8761.c0b1fcf8ec91f10d9d3f.jpg",
     "index.html": "/supunthilakshana.github.io/index.html",
     "main.93cfff6f.css.map": "/supunthilakshana.github.io/static/css/main.93cfff6f.css.map",
-    "main.b455ae14.js.map": "/supunthilakshana.github.io/static/js/main.b455ae14.js.map",
+    "main.750c39e4.js.map": "/supunthilakshana.github.io/static/js/main.750c39e4.js.map",
     "787.ddd95f79.chunk.js.map": "/supunthilakshana.github.io/static/js/787.ddd95f79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93cfff6f.css",
-    "static/js/main.b455ae14.js"
+    "static/js/main.750c39e4.js"
   ]
 }
