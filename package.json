@@ -1,6 +1,6 @@
 {
 	"name": "supunthilakshana.github.io",
-	"homepage": "https://supuntd.github.io/supunthilakshana.github.io",
+	"homepage": "/",
 	"version": "1.1.0",
 	"description": "Personal portfolio",
 	"license": "MIT",
@@ -58,5 +58,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.3.0"
 	}
 }
